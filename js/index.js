@@ -24,7 +24,7 @@ const params = new URLSearchParams(queryString);
 
 
        json.forEach(function (login)  {
-           container.innerHTML += `<a class=
+           container.innerHTML += `<a class="form"
                                    </a>`;
 
        });
