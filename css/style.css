@@ -41,3 +41,9 @@ button {
     cursor: pointer;
     border-radius: .2rem;
 }
+.message-container  {
+    background: red;
+    padding: 10px;
+    color: white;
+
+}
