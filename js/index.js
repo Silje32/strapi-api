@@ -1,7 +1,7 @@
 import { baseUrl } from "./api.js";
 import displayMessage from "./displayMessage";
 
-const formUrl = baseUrl + "logins";
+const formUrl = baseUrl + "login";
 
 const queryString = document.location.search;
 
