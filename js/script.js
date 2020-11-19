@@ -1,6 +1,7 @@
 import { errorMessage } from "./errorMessage.js";
 import { baseUrl } from "./api.js";
 import { saveToken, saveUser } from "./storage.js";
+import displayMessage from "./displayMessage.js";
 
 
 const form = document.querySelector("#contactForm");
@@ -26,7 +27,7 @@ form.addEventListener("submit", validateForm);
 function validateForm(event)  {
     event.preventDefault();
 
-    message-container.innerHTML = "";
+    //message-container.innerHTML = "";
 
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
